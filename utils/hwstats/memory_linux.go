@@ -20,7 +20,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/livekit/protocol/logger"
+	"github.com/rezi-io/livekit-protocol/logger"
 )
 
 const (

@@ -21,7 +21,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/livekit/protocol/logger/testutil"
+	"github.com/rezi-io/livekit-protocol/logger/testutil"
 )
 
 func TestDeferredLogger(t *testing.T) {

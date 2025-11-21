@@ -21,9 +21,9 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/livekit/protocol/livekit"
 	"github.com/livekit/psrpc"
 	"github.com/livekit/psrpc/pkg/middleware"
+	"github.com/rezi-io/livekit-protocol/livekit"
 )
 
 const (

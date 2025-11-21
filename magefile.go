@@ -26,7 +26,7 @@ import (
 	"path/filepath"
 
 	"github.com/livekit/mageutil"
-	"github.com/livekit/protocol/psrpc"
+	"github.com/rezi-io/livekit-protocol/psrpc"
 )
 
 var Default = Proto

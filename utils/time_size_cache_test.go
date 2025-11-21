@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/livekit/protocol/utils/mono"
+	"github.com/rezi-io/livekit-protocol/utils/mono"
 )
 
 func TestTimeSizeCache(t *testing.T) {

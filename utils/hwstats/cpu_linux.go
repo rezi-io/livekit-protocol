@@ -28,7 +28,7 @@ import (
 	"github.com/prometheus/procfs"
 	"golang.org/x/sys/unix"
 
-	"github.com/livekit/protocol/logger"
+	"github.com/rezi-io/livekit-protocol/logger"
 )
 
 var (

@@ -7,7 +7,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/livekit/protocol/livekit"
+	"github.com/rezi-io/livekit-protocol/livekit"
 )
 
 func (p *GetSIPTrunkAuthenticationRequest) SIPCall() *SIPCall {

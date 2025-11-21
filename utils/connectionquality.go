@@ -15,7 +15,7 @@
 package utils
 
 import (
-	"github.com/livekit/protocol/livekit"
+	"github.com/rezi-io/livekit-protocol/livekit"
 )
 
 func IsConnectionQualityLower(prev livekit.ConnectionQuality, curr livekit.ConnectionQuality) bool {

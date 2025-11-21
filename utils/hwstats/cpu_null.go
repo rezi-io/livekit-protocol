@@ -21,7 +21,7 @@ import (
 
 	"github.com/prometheus/procfs"
 
-	"github.com/livekit/protocol/logger"
+	"github.com/rezi-io/livekit-protocol/logger"
 )
 
 type nullStatCPUMonitor struct{}

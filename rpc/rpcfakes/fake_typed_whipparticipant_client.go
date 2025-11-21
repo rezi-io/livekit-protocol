@@ -5,8 +5,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/livekit/protocol/rpc"
 	"github.com/livekit/psrpc"
+	"github.com/rezi-io/livekit-protocol/rpc"
 	"google.golang.org/protobuf/types/known/emptypb"
 )
 

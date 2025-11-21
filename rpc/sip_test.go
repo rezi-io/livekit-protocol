@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/livekit/protocol/livekit"
+	"github.com/rezi-io/livekit-protocol/livekit"
 )
 
 func TestNewCreateSIPParticipantRequest(t *testing.T) {

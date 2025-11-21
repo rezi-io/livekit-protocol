@@ -21,7 +21,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/livekit/protocol/logger"
+	"github.com/rezi-io/livekit-protocol/logger"
 )
 
 const (

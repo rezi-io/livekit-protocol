@@ -19,7 +19,7 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/livekit/protocol/livekit"
+	"github.com/rezi-io/livekit-protocol/livekit"
 	"github.com/stretchr/testify/require"
 )
 

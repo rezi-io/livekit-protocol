@@ -29,7 +29,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/livekit/protocol/logger/zaputil"
+	"github.com/rezi-io/livekit-protocol/logger/zaputil"
 )
 
 var (

@@ -17,8 +17,8 @@ package signalling
 import (
 	"encoding/json"
 
-	"github.com/livekit/protocol/livekit"
 	"github.com/pion/webrtc/v4"
+	"github.com/rezi-io/livekit-protocol/livekit"
 )
 
 func ToProtoSessionDescription(sd webrtc.SessionDescription, id uint32, midToTrackID map[string]string) *livekit.SessionDescription {

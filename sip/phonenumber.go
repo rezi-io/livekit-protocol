@@ -1,8 +1,8 @@
 package sip
 
 import (
-	"github.com/livekit/protocol/livekit"
 	"github.com/nyaruka/phonenumbers"
+	"github.com/rezi-io/livekit-protocol/livekit"
 )
 
 // ExtractAreaCode extracts the area code from a phone number using the phonenumbers library

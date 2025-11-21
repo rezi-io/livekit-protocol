@@ -1,6 +1,6 @@
 package agentsobs
 
-import "github.com/livekit/protocol/livekit"
+import "github.com/rezi-io/livekit-protocol/livekit"
 
 func JobKindFromProto(kind livekit.JobType) JobKind {
 	switch kind {

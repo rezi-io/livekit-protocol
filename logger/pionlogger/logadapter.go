@@ -17,7 +17,7 @@ package pionlogger
 import (
 	"fmt"
 
-	"github.com/livekit/protocol/logger"
+	"github.com/rezi-io/livekit-protocol/logger"
 )
 
 // implements webrtc.LeveledLogger

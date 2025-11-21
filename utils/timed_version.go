@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/livekit/protocol/livekit"
+	"github.com/rezi-io/livekit-protocol/livekit"
 )
 
 const tickBits uint64 = 13

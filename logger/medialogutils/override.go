@@ -14,7 +14,7 @@
 
 package medialogutils
 
-import "github.com/livekit/protocol/logger"
+import "github.com/rezi-io/livekit-protocol/logger"
 
 // OverrideLogger converts errors to warnings
 type OverrideLogger struct {

@@ -1,7 +1,7 @@
 package roomobs
 
 import (
-	"github.com/livekit/protocol/livekit"
+	"github.com/rezi-io/livekit-protocol/livekit"
 )
 
 type ParticipantReporterResolver interface {

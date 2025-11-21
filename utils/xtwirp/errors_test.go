@@ -9,7 +9,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/livekit/protocol/utils/xtwirp"
+	"github.com/rezi-io/livekit-protocol/utils/xtwirp"
 )
 
 func TestStatus(t *testing.T) {

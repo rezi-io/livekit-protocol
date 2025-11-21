@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/livekit/protocol/utils/mono"
+	"github.com/rezi-io/livekit-protocol/utils/mono"
 )
 
 const (

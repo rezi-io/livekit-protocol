@@ -3,7 +3,7 @@ package configutil
 import (
 	"testing"
 
-	"github.com/livekit/protocol/utils/events"
+	"github.com/rezi-io/livekit-protocol/utils/events"
 )
 
 type testConfig struct {

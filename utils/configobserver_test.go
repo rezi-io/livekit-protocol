@@ -21,7 +21,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/livekit/protocol/utils/configutil"
+	"github.com/rezi-io/livekit-protocol/utils/configutil"
 )
 
 const testConfig0 = `foo: a`

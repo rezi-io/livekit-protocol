@@ -14,7 +14,7 @@
 
 package egress
 
-import "github.com/livekit/protocol/livekit"
+import "github.com/rezi-io/livekit-protocol/livekit"
 
 const (
 	EgressTypeRoomComposite  = "room_composite"

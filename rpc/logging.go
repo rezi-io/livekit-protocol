@@ -21,8 +21,8 @@ import (
 	"github.com/puzpuzpuz/xsync/v3"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/livekit/protocol/logger"
 	"github.com/livekit/psrpc"
+	"github.com/rezi-io/livekit-protocol/logger"
 )
 
 type loggerCache struct {
