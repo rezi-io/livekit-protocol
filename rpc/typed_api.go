@@ -24,9 +24,9 @@ import (
 	"github.com/livekit/psrpc/pkg/middleware/otelpsrpc"
 
 	"github.com/rezi-io/livekit-protocol/livekit"
-	"github.com/rezi-io/livekit-protocolprotocol/logger"
-	"github.com/rezi-io/livekit-protocolprotocol/tracer"
-	"github.com/rezi-io/livekit-protocolprotocol/utils/must"
+	"github.com/rezi-io/livekit-protocol/logger"
+	"github.com/rezi-io/livekit-protocol/tracer"
+	"github.com/rezi-io/livekit-protocol/utils/must"
 )
 
 type PSRPCConfig struct {

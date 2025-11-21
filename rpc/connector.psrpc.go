@@ -15,7 +15,7 @@ import (
 
 	livekit10 "github.com/rezi-io/livekit-protocol/livekit"
 
-	livekit11 "github.com/rezi-io/livekit-protocolprotocol/livekit"
+	livekit11 "github.com/rezi-io/livekit-protocol/livekit"
 )
 
 var _ = version.PsrpcVersion_0_7

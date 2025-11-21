@@ -45,7 +45,7 @@ const file_rpc_analytics_proto_rawDesc = "" +
 	"\x18AnalyticsRecorderService\x12B\n" +
 	"\vIngestStats\x12\x17.livekit.AnalyticsStats\x1a\x16.google.protobuf.Empty\"\x00(\x01\x12D\n" +
 	"\fIngestEvents\x12\x18.livekit.AnalyticsEvents\x1a\x16.google.protobuf.Empty\"\x00(\x01\x12O\n" +
-	"\x14IngestNodeRoomStates\x12\x1b.livekit.AnalyticsNodeRooms\x1a\x16.google.protobuf.Empty\"\x00(\x01B!Z\x1fgithub.com/rezi-io/livekit-protocolprotocol/rpcb\x06proto3"
+	"\x14IngestNodeRoomStates\x12\x1b.livekit.AnalyticsNodeRooms\x1a\x16.google.protobuf.Empty\"\x00(\x01B!Z\x1fgithub.com/rezi-io/livekit-protocol/rpcb\x06proto3"
 
 var file_rpc_analytics_proto_goTypes = []any{
 	(*livekit.AnalyticsStats)(nil),     // 0: livekit.AnalyticsStats

@@ -2,9 +2,9 @@ package observability
 
 import (
 	"github.com/rezi-io/livekit-protocol/observability/agentsobs"
-	"github.com/rezi-io/livekit-protocolprotocol/observability/gatewayobs"
-	"github.com/rezi-io/livekit-protocolprotocol/observability/roomobs"
-	"github.com/rezi-io/livekit-protocolprotocol/observability/telephonyobs"
+	"github.com/rezi-io/livekit-protocol/observability/gatewayobs"
+	"github.com/rezi-io/livekit-protocol/observability/roomobs"
+	"github.com/rezi-io/livekit-protocol/observability/telephonyobs"
 )
 
 const Project = "livekit"

@@ -21,8 +21,8 @@ import (
 	"time"
 
 	"github.com/rezi-io/livekit-protocol/auth"
-	"github.com/rezi-io/livekit-protocolprotocol/livekit"
-	"github.com/rezi-io/livekit-protocolprotocol/logger"
+	"github.com/rezi-io/livekit-protocol/livekit"
+	"github.com/rezi-io/livekit-protocol/logger"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )
 

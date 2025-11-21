@@ -21,8 +21,8 @@ import (
 	"go.uber.org/zap/zapcore"
 
 	"github.com/rezi-io/livekit-protocol/logger"
-	"github.com/rezi-io/livekit-protocolprotocol/logger/testutil"
-	"github.com/rezi-io/livekit-protocolprotocol/logger/zaputil"
+	"github.com/rezi-io/livekit-protocol/logger/testutil"
+	"github.com/rezi-io/livekit-protocol/logger/zaputil"
 )
 
 type TestEgressLogOutput struct {

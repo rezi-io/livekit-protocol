@@ -7,7 +7,7 @@ import (
 
 	"github.com/livekit/psrpc"
 	"github.com/rezi-io/livekit-protocol/livekit"
-	"github.com/rezi-io/livekit-protocolprotocol/rpc"
+	"github.com/rezi-io/livekit-protocol/rpc"
 )
 
 type FakeKeepalivePubSub struct {

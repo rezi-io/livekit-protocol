@@ -25,8 +25,8 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/rezi-io/livekit-protocol/livekit"
-	"github.com/rezi-io/livekit-protocolprotocol/utils"
-	"github.com/rezi-io/livekit-protocolprotocol/utils/guid"
+	"github.com/rezi-io/livekit-protocol/utils"
+	"github.com/rezi-io/livekit-protocol/utils/guid"
 )
 
 func TestAccessToken(t *testing.T) {

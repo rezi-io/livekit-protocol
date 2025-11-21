@@ -260,7 +260,7 @@ const file_livekit_connector_twilio_proto_rawDesc = "" +
 	"\x1eTWILIO_CALL_DIRECTION_OUTBOUND\x10\x01\"<\n" +
 	"\x19ConnectTwilioCallResponse\x12\x1f\n" +
 	"\vconnect_url\x18\x01 \x01(\tR\n" +
-	"connectUrlBFZ#github.com/rezi-io/livekit-protocolprotocol/livekit\xaa\x02\rLiveKit.Proto\xea\x02\x0eLiveKit::Protob\x06proto3"
+	"connectUrlBFZ#github.com/rezi-io/livekit-protocol/livekit\xaa\x02\rLiveKit.Proto\xea\x02\x0eLiveKit::Protob\x06proto3"
 
 var (
 	file_livekit_connector_twilio_proto_rawDescOnce sync.Once

@@ -45,7 +45,7 @@ const file_rpc_roommanager_proto_rawDesc = "" +
 	"\vRoomManager\x12R\n" +
 	"\n" +
 	"CreateRoom\x12\x1a.livekit.CreateRoomRequest\x1a\r.livekit.Room\"\x19\xb2\x89\x01\x15\x10\x01\x1a\x11\n" +
-	"\x04node\x12\anode_id\x18\x01B!Z\x1fgithub.com/rezi-io/livekit-protocolprotocol/rpcb\x06proto3"
+	"\x04node\x12\anode_id\x18\x01B!Z\x1fgithub.com/rezi-io/livekit-protocol/rpcb\x06proto3"
 
 var file_rpc_roommanager_proto_goTypes = []any{
 	(*livekit.CreateRoomRequest)(nil), // 0: livekit.CreateRoomRequest

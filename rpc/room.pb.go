@@ -49,7 +49,7 @@ const file_rpc_room_proto_rawDesc = "" +
 	"\bSendData\x12\x18.livekit.SendDataRequest\x1a\x19.livekit.SendDataResponse\"\x16\xb2\x89\x01\x12\x10\x01\x1a\x0e\n" +
 	"\x04room\x12\x04room\x18\x01\x12_\n" +
 	"\x12UpdateRoomMetadata\x12\".livekit.UpdateRoomMetadataRequest\x1a\r.livekit.Room\"\x16\xb2\x89\x01\x12\x10\x01\x1a\x0e\n" +
-	"\x04room\x12\x04room\x18\x01B!Z\x1fgithub.com/rezi-io/livekit-protocolprotocol/rpcb\x06proto3"
+	"\x04room\x12\x04room\x18\x01B!Z\x1fgithub.com/rezi-io/livekit-protocol/rpcb\x06proto3"
 
 var file_rpc_room_proto_goTypes = []any{
 	(*livekit.DeleteRoomRequest)(nil),         // 0: livekit.DeleteRoomRequest

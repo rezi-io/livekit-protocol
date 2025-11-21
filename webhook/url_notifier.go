@@ -31,8 +31,8 @@ import (
 	"google.golang.org/protobuf/encoding/protojson"
 
 	"github.com/rezi-io/livekit-protocol/auth"
-	"github.com/rezi-io/livekit-protocolprotocol/livekit"
-	"github.com/rezi-io/livekit-protocolprotocol/logger"
+	"github.com/rezi-io/livekit-protocol/livekit"
+	"github.com/rezi-io/livekit-protocol/logger"
 )
 
 type URLNotifierConfig struct {

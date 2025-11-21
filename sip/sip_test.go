@@ -25,7 +25,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/rezi-io/livekit-protocol/livekit"
-	"github.com/rezi-io/livekit-protocolprotocol/rpc"
+	"github.com/rezi-io/livekit-protocol/rpc"
 )
 
 func TestNormalizeNumber(t *testing.T) {

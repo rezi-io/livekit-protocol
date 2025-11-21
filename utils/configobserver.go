@@ -23,7 +23,7 @@ import (
 	"gopkg.in/yaml.v3"
 
 	"github.com/rezi-io/livekit-protocol/logger"
-	"github.com/rezi-io/livekit-protocolprotocol/utils/events"
+	"github.com/rezi-io/livekit-protocol/utils/events"
 )
 
 type ConfigBuilder[T any] interface {

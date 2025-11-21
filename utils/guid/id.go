@@ -29,7 +29,7 @@ import (
 	"github.com/lithammer/shortuuid/v4"
 
 	"github.com/rezi-io/livekit-protocol/livekit"
-	"github.com/rezi-io/livekit-protocolprotocol/utils/must"
+	"github.com/rezi-io/livekit-protocol/utils/must"
 )
 
 const Size = 12

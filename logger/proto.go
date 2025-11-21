@@ -29,7 +29,7 @@ import (
 	"github.com/puzpuzpuz/xsync/v3"
 
 	"github.com/rezi-io/livekit-protocol/livekit/logger"
-	"github.com/rezi-io/livekit-protocolprotocol/utils/must"
+	"github.com/rezi-io/livekit-protocol/utils/must"
 )
 
 func Proto(val proto.Message) zapcore.ObjectMarshaler {

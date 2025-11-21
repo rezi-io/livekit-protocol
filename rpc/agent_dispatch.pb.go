@@ -48,7 +48,7 @@ const file_rpc_agent_dispatch_proto_rawDesc = "" +
 	"\x0eDeleteDispatch\x12#.livekit.DeleteAgentDispatchRequest\x1a\x16.livekit.AgentDispatch\"\x16\xb2\x89\x01\x12\x10\x01\x1a\x0e\n" +
 	"\x04room\x12\x04room\x18\x01\x12m\n" +
 	"\fListDispatch\x12!.livekit.ListAgentDispatchRequest\x1a\".livekit.ListAgentDispatchResponse\"\x16\xb2\x89\x01\x12\x10\x01\x1a\x0e\n" +
-	"\x04room\x12\x04room\x18\x01B!Z\x1fgithub.com/rezi-io/livekit-protocolprotocol/rpcb\x06proto3"
+	"\x04room\x12\x04room\x18\x01B!Z\x1fgithub.com/rezi-io/livekit-protocol/rpcb\x06proto3"
 
 var file_rpc_agent_dispatch_proto_goTypes = []any{
 	(*livekit.AgentDispatch)(nil),              // 0: livekit.AgentDispatch

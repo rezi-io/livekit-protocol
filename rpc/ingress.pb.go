@@ -630,7 +630,7 @@ const file_rpc_ingress_proto_rawDesc = "" +
 	"\x12DeleteWHIPResource\x12\x1e.rpc.DeleteWHIPResourceRequest\x1a\x16.google.protobuf.Empty\"\x06\xb2\x89\x01\x02\x10\x01\x12i\n" +
 	"\x16ICERestartWHIPResource\x12\".rpc.ICERestartWHIPResourceRequest\x1a#.rpc.ICERestartWHIPResourceResponse\"\x06\xb2\x89\x01\x02\x10\x01\x12b\n" +
 	"\x17WHIPRTCConnectionNotify\x12#.rpc.WHIPRTCConnectionNotifyRequest\x1a\x16.google.protobuf.Empty\"\n" +
-	"\xb2\x89\x01\x06\x10\x01\x1a\x02 \x01B!Z\x1fgithub.com/rezi-io/livekit-protocolprotocol/rpcb\x06proto3"
+	"\xb2\x89\x01\x06\x10\x01\x1a\x02 \x01B!Z\x1fgithub.com/rezi-io/livekit-protocol/rpcb\x06proto3"
 
 var (
 	file_rpc_ingress_proto_rawDescOnce sync.Once

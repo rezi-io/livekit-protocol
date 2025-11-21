@@ -24,7 +24,7 @@ import (
 
 	"github.com/rezi-io/livekit-protocol/xtls"
 
-	"github.com/rezi-io/livekit-protocolprotocol/logger"
+	"github.com/rezi-io/livekit-protocol/logger"
 )
 
 var ErrNotConfigured = errors.New("Redis is not configured")

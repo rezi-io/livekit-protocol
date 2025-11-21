@@ -773,7 +773,7 @@ const file_livekit_connector_whatsapp_proto_rawDesc = "" +
 	"\tdirection\x18\x02 \x01(\x0e2\x1e.livekit.WhatsAppCallDirectionR\tdirection*b\n" +
 	"\x15WhatsAppCallDirection\x12#\n" +
 	"\x1fWHATSAPP_CALL_DIRECTION_INBOUND\x10\x00\x12$\n" +
-	" WHATSAPP_CALL_DIRECTION_OUTBOUND\x10\x02BFZ#github.com/rezi-io/livekit-protocolprotocol/livekit\xaa\x02\rLiveKit.Proto\xea\x02\x0eLiveKit::Protob\x06proto3"
+	" WHATSAPP_CALL_DIRECTION_OUTBOUND\x10\x02BFZ#github.com/rezi-io/livekit-protocol/livekit\xaa\x02\rLiveKit.Proto\xea\x02\x0eLiveKit::Protob\x06proto3"
 
 var (
 	file_livekit_connector_whatsapp_proto_rawDescOnce sync.Once

@@ -30,10 +30,10 @@ import (
 	"golang.org/x/exp/slices"
 
 	"github.com/rezi-io/livekit-protocol/livekit"
-	"github.com/rezi-io/livekit-protocolprotocol/logger"
-	"github.com/rezi-io/livekit-protocolprotocol/rpc"
-	"github.com/rezi-io/livekit-protocolprotocol/utils"
-	"github.com/rezi-io/livekit-protocolprotocol/utils/guid"
+	"github.com/rezi-io/livekit-protocol/logger"
+	"github.com/rezi-io/livekit-protocol/rpc"
+	"github.com/rezi-io/livekit-protocol/utils"
+	"github.com/rezi-io/livekit-protocol/utils/guid"
 )
 
 //go:generate stringer -type TrunkFilteredReason -trimprefix TrunkFiltered

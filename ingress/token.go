@@ -18,7 +18,7 @@ import (
 	"time"
 
 	"github.com/rezi-io/livekit-protocol/auth"
-	"github.com/rezi-io/livekit-protocolprotocol/livekit"
+	"github.com/rezi-io/livekit-protocol/livekit"
 )
 
 func BuildIngressToken(apiKey, secret, roomName, participantIdentity, participantName, participantMetadata, ingressID string) (string, error) {

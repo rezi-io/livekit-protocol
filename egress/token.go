@@ -18,7 +18,7 @@ import (
 	"time"
 
 	"github.com/rezi-io/livekit-protocol/auth"
-	"github.com/rezi-io/livekit-protocolprotocol/livekit"
+	"github.com/rezi-io/livekit-protocol/livekit"
 )
 
 func BuildEgressToken(egressID, apiKey, secret, roomName string) (string, error) {

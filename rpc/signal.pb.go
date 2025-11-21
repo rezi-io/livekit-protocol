@@ -182,7 +182,7 @@ const file_rpc_signal_proto_rawDesc = "" +
 	"\x05close\x18\x04 \x01(\bR\x05close2i\n" +
 	"\x06Signal\x12_\n" +
 	"\vRelaySignal\x12\x17.rpc.RelaySignalRequest\x1a\x18.rpc.RelaySignalResponse\"\x1d\xb2\x89\x01\x19\x10\x01\x1a\x13\n" +
-	"\x04node\x12\anode_id\x18\x01 \x01 \x01B!Z\x1fgithub.com/rezi-io/livekit-protocolprotocol/rpcb\x06proto3"
+	"\x04node\x12\anode_id\x18\x01 \x01 \x01B!Z\x1fgithub.com/rezi-io/livekit-protocol/rpcb\x06proto3"
 
 var (
 	file_rpc_signal_proto_rawDescOnce sync.Once

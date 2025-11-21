@@ -25,8 +25,8 @@ import (
 	"google.golang.org/protobuf/encoding/protojson"
 
 	"github.com/rezi-io/livekit-protocol/livekit"
-	"github.com/rezi-io/livekit-protocolprotocol/logger"
-	"github.com/rezi-io/livekit-protocolprotocol/utils"
+	"github.com/rezi-io/livekit-protocol/logger"
+	"github.com/rezi-io/livekit-protocol/utils"
 )
 
 type RoomConfiguration livekit.RoomConfiguration

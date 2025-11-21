@@ -57,7 +57,7 @@ const file_rpc_participant_proto_rawDesc = "" +
 	"\vparticipant\x12\vparticipant\x18\x01\x12k\n" +
 	"\n" +
 	"PerformRpc\x12\x1a.livekit.PerformRpcRequest\x1a\x1b.livekit.PerformRpcResponse\"$\xb2\x89\x01 \x10\x01\x1a\x1c\n" +
-	"\vparticipant\x12\vparticipant\x18\x01B!Z\x1fgithub.com/rezi-io/livekit-protocolprotocol/rpcb\x06proto3"
+	"\vparticipant\x12\vparticipant\x18\x01B!Z\x1fgithub.com/rezi-io/livekit-protocol/rpcb\x06proto3"
 
 var file_rpc_participant_proto_goTypes = []any{
 	(*livekit.RoomParticipantIdentity)(nil),     // 0: livekit.RoomParticipantIdentity

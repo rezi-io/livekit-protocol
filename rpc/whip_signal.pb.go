@@ -522,7 +522,7 @@ const file_rpc_whip_signal_proto_rawDesc = "" +
 	"ICERestart\x12%.rpc.WHIPParticipantICERestartRequest\x1a&.rpc.WHIPParticipantICERestartResponse\"\x19\xb2\x89\x01\x15\x10\x01\x1a\x11\n" +
 	"\x06common\x12\x05topic\x18\x01\x12l\n" +
 	"\rDeleteSession\x12(.rpc.WHIPParticipantDeleteSessionRequest\x1a\x16.google.protobuf.Empty\"\x19\xb2\x89\x01\x15\x10\x01\x1a\x11\n" +
-	"\x06common\x12\x05topic\x18\x01B!Z\x1fgithub.com/rezi-io/livekit-protocolprotocol/rpcb\x06proto3"
+	"\x06common\x12\x05topic\x18\x01B!Z\x1fgithub.com/rezi-io/livekit-protocol/rpcb\x06proto3"
 
 var (
 	file_rpc_whip_signal_proto_rawDescOnce sync.Once

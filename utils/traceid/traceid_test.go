@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/rezi-io/livekit-protocol/utils/guid"
-	"github.com/rezi-io/livekit-protocolprotocol/utils/traceid"
+	"github.com/rezi-io/livekit-protocol/utils/traceid"
 )
 
 func TestIDToken(t *testing.T) {

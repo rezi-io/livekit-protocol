@@ -369,7 +369,7 @@ const file_rpc_agent_proto_rawDesc = "" +
 	"\n" +
 	"JobRequest\x12\f.livekit.Job\x1a\x17.rpc.JobRequestResponse\"\x1f\xb2\x89\x01\x1b\x10\x01\x1a\x15\x12\tnamespace\x12\bjob_type0\x01\x12U\n" +
 	"\fJobTerminate\x12\x18.rpc.JobTerminateRequest\x1a\x19.rpc.JobTerminateResponse\"\x10\xb2\x89\x01\f\x10\x01\x1a\b\x12\x06job_id\x12c\n" +
-	"\x10WorkerRegistered\x12\x16.google.protobuf.Empty\x1a\x16.google.protobuf.Empty\"\x1f\xb2\x89\x01\x1b\b\x01\x10\x01\x1a\x13\x12\x11handler_namespace(\x01B!Z\x1fgithub.com/rezi-io/livekit-protocolprotocol/rpcb\x06proto3"
+	"\x10WorkerRegistered\x12\x16.google.protobuf.Empty\x1a\x16.google.protobuf.Empty\"\x1f\xb2\x89\x01\x1b\b\x01\x10\x01\x1a\x13\x12\x11handler_namespace(\x01B!Z\x1fgithub.com/rezi-io/livekit-protocol/rpcb\x06proto3"
 
 var (
 	file_rpc_agent_proto_rawDescOnce sync.Once

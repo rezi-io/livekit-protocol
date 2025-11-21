@@ -26,7 +26,7 @@ import (
 	unsafe "unsafe"
 
 	livekit "github.com/rezi-io/livekit-protocol/livekit"
-	_ "github.com/rezi-io/livekit-protocolprotocol/livekit/logger"
+	_ "github.com/rezi-io/livekit-protocol/livekit/logger"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	durationpb "google.golang.org/protobuf/types/known/durationpb"
@@ -1382,7 +1382,7 @@ const file_rpc_io_proto_rawDesc = "" +
 	"\x19GetSIPTrunkAuthentication\x12%.rpc.GetSIPTrunkAuthenticationRequest\x1a&.rpc.GetSIPTrunkAuthenticationResponse\x12g\n" +
 	"\x18EvaluateSIPDispatchRules\x12$.rpc.EvaluateSIPDispatchRulesRequest\x1a%.rpc.EvaluateSIPDispatchRulesResponse\x12L\n" +
 	"\x12UpdateSIPCallState\x12\x1e.rpc.UpdateSIPCallStateRequest\x1a\x16.google.protobuf.Empty\x12J\n" +
-	"\x11RecordCallContext\x12\x1d.rpc.RecordCallContextRequest\x1a\x16.google.protobuf.EmptyB!Z\x1fgithub.com/rezi-io/livekit-protocolprotocol/rpcb\x06proto3"
+	"\x11RecordCallContext\x12\x1d.rpc.RecordCallContextRequest\x1a\x16.google.protobuf.EmptyB!Z\x1fgithub.com/rezi-io/livekit-protocol/rpcb\x06proto3"
 
 var (
 	file_rpc_io_proto_rawDescOnce sync.Once
