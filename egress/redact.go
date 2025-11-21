@@ -15,8 +15,8 @@
 package egress
 
 import (
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/utils"
+	"github.com/rezi-io/livekit-protocol/livekit"
+	"github.com/rezi-io/livekit-protocolprotocol/utils"
 )
 
 func RedactUpload(req UploadRequest) {

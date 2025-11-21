@@ -28,8 +28,8 @@ import (
 	"github.com/jxskiss/base62"
 	"github.com/lithammer/shortuuid/v4"
 
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/utils/must"
+	"github.com/rezi-io/livekit-protocol/livekit"
+	"github.com/rezi-io/livekit-protocolprotocol/utils/must"
 )
 
 const Size = 12

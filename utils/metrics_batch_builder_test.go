@@ -22,8 +22,8 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/utils/mono"
+	"github.com/rezi-io/livekit-protocol/livekit"
+	"github.com/rezi-io/livekit-protocolprotocol/utils/mono"
 )
 
 func TestMetricsBatchBuilder(t *testing.T) {

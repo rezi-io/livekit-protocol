@@ -12,9 +12,11 @@ import (
 	"github.com/livekit/psrpc/pkg/rand"
 	"github.com/livekit/psrpc/pkg/server"
 	"github.com/livekit/psrpc/version"
+
+	livekit10 "github.com/rezi-io/livekit-protocol/livekit"
+
+	livekit11 "github.com/rezi-io/livekit-protocolprotocol/livekit"
 )
-import livekit10 "github.com/livekit/protocol/livekit"
-import livekit11 "github.com/livekit/protocol/livekit"
 
 var _ = version.PsrpcVersion_0_7
 

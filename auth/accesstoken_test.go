@@ -24,9 +24,9 @@ import (
 	"github.com/go-jose/go-jose/v3/jwt"
 	"github.com/stretchr/testify/require"
 
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/utils"
-	"github.com/livekit/protocol/utils/guid"
+	"github.com/rezi-io/livekit-protocol/livekit"
+	"github.com/rezi-io/livekit-protocolprotocol/utils"
+	"github.com/rezi-io/livekit-protocolprotocol/utils/guid"
 )
 
 func TestAccessToken(t *testing.T) {

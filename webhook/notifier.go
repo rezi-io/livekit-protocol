@@ -20,9 +20,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/livekit/protocol/auth"
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
+	"github.com/rezi-io/livekit-protocol/auth"
+	"github.com/rezi-io/livekit-protocolprotocol/livekit"
+	"github.com/rezi-io/livekit-protocolprotocol/logger"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )
 

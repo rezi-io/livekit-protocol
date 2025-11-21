@@ -21,9 +21,9 @@ import (
 
 	"github.com/pion/logging"
 
-	"github.com/livekit/protocol/logger"
-	"github.com/livekit/protocol/utils/options"
-	"github.com/livekit/protocol/utils/pointer"
+	"github.com/rezi-io/livekit-protocol/logger"
+	"github.com/rezi-io/livekit-protocolprotocol/utils/options"
+	"github.com/rezi-io/livekit-protocolprotocol/utils/pointer"
 )
 
 var (

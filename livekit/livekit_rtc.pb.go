@@ -21,12 +21,13 @@
 package livekit
 
 import (
-	_ "github.com/livekit/protocol/livekit/logger"
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
+
+	_ "github.com/rezi-io/livekit-protocol/livekit/logger"
+	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
+	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 )
 
 const (
@@ -4777,7 +4778,7 @@ const file_livekit_rtc_proto_rawDesc = "" +
 	"\x11CandidateProtocol\x12\a\n" +
 	"\x03UDP\x10\x00\x12\a\n" +
 	"\x03TCP\x10\x01\x12\a\n" +
-	"\x03TLS\x10\x02BFZ#github.com/livekit/protocol/livekit\xaa\x02\rLiveKit.Proto\xea\x02\x0eLiveKit::Protob\x06proto3"
+	"\x03TLS\x10\x02BFZ#github.com/rezi-io/livekit-protocolprotocol/livekit\xaa\x02\rLiveKit.Proto\xea\x02\x0eLiveKit::Protob\x06proto3"
 
 var (
 	file_livekit_rtc_proto_rawDescOnce sync.Once

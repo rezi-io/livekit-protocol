@@ -29,11 +29,11 @@ import (
 	"github.com/twitchtv/twirp"
 	"golang.org/x/exp/slices"
 
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
-	"github.com/livekit/protocol/rpc"
-	"github.com/livekit/protocol/utils"
-	"github.com/livekit/protocol/utils/guid"
+	"github.com/rezi-io/livekit-protocol/livekit"
+	"github.com/rezi-io/livekit-protocolprotocol/logger"
+	"github.com/rezi-io/livekit-protocolprotocol/rpc"
+	"github.com/rezi-io/livekit-protocolprotocol/utils"
+	"github.com/rezi-io/livekit-protocolprotocol/utils/guid"
 )
 
 //go:generate stringer -type TrunkFilteredReason -trimprefix TrunkFiltered

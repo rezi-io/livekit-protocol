@@ -21,15 +21,16 @@
 package livekit
 
 import (
-	_ "github.com/livekit/protocol/livekit/logger"
+	reflect "reflect"
+	sync "sync"
+	unsafe "unsafe"
+
+	_ "github.com/rezi-io/livekit-protocol/livekit/logger"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	anypb "google.golang.org/protobuf/types/known/anypb"
 	durationpb "google.golang.org/protobuf/types/known/durationpb"
 	emptypb "google.golang.org/protobuf/types/known/emptypb"
-	reflect "reflect"
-	sync "sync"
-	unsafe "unsafe"
 )
 
 const (
@@ -4940,7 +4941,7 @@ const file_livekit_sip_proto_rawDesc = "" +
 	"\x13ListSIPDispatchRule\x12#.livekit.ListSIPDispatchRuleRequest\x1a$.livekit.ListSIPDispatchRuleResponse\x12\\\n" +
 	"\x15DeleteSIPDispatchRule\x12%.livekit.DeleteSIPDispatchRuleRequest\x1a\x1c.livekit.SIPDispatchRuleInfo\x12Y\n" +
 	"\x14CreateSIPParticipant\x12$.livekit.CreateSIPParticipantRequest\x1a\x1b.livekit.SIPParticipantInfo\x12X\n" +
-	"\x16TransferSIPParticipant\x12&.livekit.TransferSIPParticipantRequest\x1a\x16.google.protobuf.EmptyBFZ#github.com/livekit/protocol/livekit\xaa\x02\rLiveKit.Proto\xea\x02\x0eLiveKit::Protob\x06proto3"
+	"\x16TransferSIPParticipant\x12&.livekit.TransferSIPParticipantRequest\x1a\x16.google.protobuf.EmptyBFZ#github.com/rezi-io/livekit-protocolprotocol/livekit\xaa\x02\rLiveKit.Proto\xea\x02\x0eLiveKit::Protob\x06proto3"
 
 var (
 	file_livekit_sip_proto_rawDescOnce sync.Once

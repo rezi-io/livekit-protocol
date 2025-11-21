@@ -21,16 +21,17 @@
 package rpc
 
 import (
-	livekit "github.com/livekit/protocol/livekit"
-	_ "github.com/livekit/protocol/livekit/logger"
+	reflect "reflect"
+	sync "sync"
+	unsafe "unsafe"
+
 	_ "github.com/livekit/psrpc/protoc-gen-psrpc/options"
+	livekit "github.com/rezi-io/livekit-protocol/livekit"
+	_ "github.com/rezi-io/livekit-protocolprotocol/livekit/logger"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	durationpb "google.golang.org/protobuf/types/known/durationpb"
 	emptypb "google.golang.org/protobuf/types/known/emptypb"
-	reflect "reflect"
-	sync "sync"
-	unsafe "unsafe"
 )
 
 const (
@@ -560,7 +561,7 @@ const file_rpc_sip_proto_rawDesc = "" +
 	"\x05value\x18\x02 \x01(\tR\x05value:\x028\x012\xf9\x01\n" +
 	"\vSIPInternal\x12u\n" +
 	"\x14CreateSIPParticipant\x12(.rpc.InternalCreateSIPParticipantRequest\x1a).rpc.InternalCreateSIPParticipantResponse\"\b\xb2\x89\x01\x04\x10\x010\x01\x12s\n" +
-	"\x16TransferSIPParticipant\x12*.rpc.InternalTransferSIPParticipantRequest\x1a\x16.google.protobuf.Empty\"\x15\xb2\x89\x01\x11\x10\x01\x1a\r\x12\vsip_call_idB!Z\x1fgithub.com/livekit/protocol/rpcb\x06proto3"
+	"\x16TransferSIPParticipant\x12*.rpc.InternalTransferSIPParticipantRequest\x1a\x16.google.protobuf.Empty\"\x15\xb2\x89\x01\x11\x10\x01\x1a\r\x12\vsip_call_idB!Z\x1fgithub.com/rezi-io/livekit-protocolprotocol/rpcb\x06proto3"
 
 var (
 	file_rpc_sip_proto_rawDescOnce sync.Once

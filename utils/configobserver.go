@@ -22,8 +22,8 @@ import (
 	"go.uber.org/atomic"
 	"gopkg.in/yaml.v3"
 
-	"github.com/livekit/protocol/logger"
-	"github.com/livekit/protocol/utils/events"
+	"github.com/rezi-io/livekit-protocol/logger"
+	"github.com/rezi-io/livekit-protocolprotocol/utils/events"
 )
 
 type ConfigBuilder[T any] interface {

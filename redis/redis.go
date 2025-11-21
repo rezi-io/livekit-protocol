@@ -22,9 +22,9 @@ import (
 	"github.com/pkg/errors"
 	"github.com/redis/go-redis/v9"
 
-	"github.com/livekit/protocol/xtls"
+	"github.com/rezi-io/livekit-protocol/xtls"
 
-	"github.com/livekit/protocol/logger"
+	"github.com/rezi-io/livekit-protocolprotocol/logger"
 )
 
 var ErrNotConfigured = errors.New("Redis is not configured")

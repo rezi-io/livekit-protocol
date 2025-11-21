@@ -19,8 +19,8 @@ import (
 
 	"golang.org/x/exp/maps"
 
-	"github.com/livekit/protocol/logger"
-	"github.com/livekit/protocol/utils/options"
+	"github.com/rezi-io/livekit-protocol/logger"
+	"github.com/rezi-io/livekit-protocolprotocol/utils/options"
 )
 
 const DefaultQueueSize = 16

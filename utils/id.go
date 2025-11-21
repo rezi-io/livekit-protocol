@@ -15,8 +15,8 @@
 package utils
 
 import (
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/utils/guid"
+	"github.com/rezi-io/livekit-protocol/livekit"
+	"github.com/rezi-io/livekit-protocolprotocol/utils/guid"
 )
 
 const (

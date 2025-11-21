@@ -3,8 +3,8 @@ package agent
 import (
 	"time"
 
-	"github.com/livekit/protocol/auth"
-	"github.com/livekit/protocol/livekit"
+	"github.com/rezi-io/livekit-protocol/auth"
+	"github.com/rezi-io/livekit-protocolprotocol/livekit"
 )
 
 func BuildAgentToken(

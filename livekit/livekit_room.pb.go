@@ -21,12 +21,13 @@
 package livekit
 
 import (
-	_ "github.com/livekit/protocol/livekit/logger"
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
+
+	_ "github.com/rezi-io/livekit-protocol/livekit/logger"
+	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
+	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 )
 
 const (
@@ -1725,7 +1726,7 @@ const file_livekit_room_proto_rawDesc = "" +
 	"\x12ForwardParticipant\x12\".livekit.ForwardParticipantRequest\x1a#.livekit.ForwardParticipantResponse\x12T\n" +
 	"\x0fMoveParticipant\x12\x1f.livekit.MoveParticipantRequest\x1a .livekit.MoveParticipantResponse\x12E\n" +
 	"\n" +
-	"PerformRpc\x12\x1a.livekit.PerformRpcRequest\x1a\x1b.livekit.PerformRpcResponseBFZ#github.com/livekit/protocol/livekit\xaa\x02\rLiveKit.Proto\xea\x02\x0eLiveKit::Protob\x06proto3"
+	"PerformRpc\x12\x1a.livekit.PerformRpcRequest\x1a\x1b.livekit.PerformRpcResponseBFZ#github.com/rezi-io/livekit-protocolprotocol/livekit\xaa\x02\rLiveKit.Proto\xea\x02\x0eLiveKit::Protob\x06proto3"
 
 var (
 	file_livekit_room_proto_rawDescOnce sync.Once

@@ -20,9 +20,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/livekit/protocol/logger"
-	"github.com/livekit/protocol/logger/testutil"
-	"github.com/livekit/protocol/logger/zaputil"
+	"github.com/rezi-io/livekit-protocol/logger"
+	"github.com/rezi-io/livekit-protocolprotocol/logger/testutil"
+	"github.com/rezi-io/livekit-protocolprotocol/logger/zaputil"
 )
 
 type TestEgressLogOutput struct {

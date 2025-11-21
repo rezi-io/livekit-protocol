@@ -21,13 +21,14 @@
 package rpc
 
 import (
-	livekit "github.com/livekit/protocol/livekit"
-	_ "github.com/livekit/psrpc/protoc-gen-psrpc/options"
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
+
+	_ "github.com/livekit/psrpc/protoc-gen-psrpc/options"
+	livekit "github.com/rezi-io/livekit-protocol/livekit"
+	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
+	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 )
 
 const (
@@ -213,7 +214,7 @@ const file_rpc_connector_proto_rawDesc = "" +
 	"\x11ConnectTwilioCall\x12%.rpc.InternalConnectTwilioCallRequest\x1a\".livekit.ConnectTwilioCallResponse\"\x06\xb2\x89\x01\x02\x10\x012\x98\x02\n" +
 	"\x10ConnectorHandler\x12|\n" +
 	"\x13ConnectWhatsAppCall\x12#.livekit.ConnectWhatsAppCallRequest\x1a$.livekit.ConnectWhatsAppCallResponse\"\x1a\xb2\x89\x01\x16\x10\x01\x1a\x12\x12\x10whatsapp_call_id\x12\x85\x01\n" +
-	"\x16DisconnectWhatsAppCall\x12&.livekit.DisconnectWhatsAppCallRequest\x1a'.livekit.DisconnectWhatsAppCallResponse\"\x1a\xb2\x89\x01\x16\x10\x01\x1a\x12\x12\x10whatsapp_call_idB!Z\x1fgithub.com/livekit/protocol/rpcb\x06proto3"
+	"\x16DisconnectWhatsAppCall\x12&.livekit.DisconnectWhatsAppCallRequest\x1a'.livekit.DisconnectWhatsAppCallResponse\"\x1a\xb2\x89\x01\x16\x10\x01\x1a\x12\x12\x10whatsapp_call_idB!Z\x1fgithub.com/rezi-io/livekit-protocolprotocol/rpcb\x06proto3"
 
 var (
 	file_rpc_connector_proto_rawDescOnce sync.Once

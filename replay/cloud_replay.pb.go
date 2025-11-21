@@ -7,13 +7,14 @@
 package replay
 
 import (
-	livekit "github.com/livekit/protocol/livekit"
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	emptypb "google.golang.org/protobuf/types/known/emptypb"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
+
+	livekit "github.com/rezi-io/livekit-protocol/livekit"
+	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
+	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	emptypb "google.golang.org/protobuf/types/known/emptypb"
 )
 
 const (
@@ -481,7 +482,7 @@ const file_cloud_replay_proto_rawDesc = "" +
 	"\fDeleteReplay\x12\x1b.replay.DeleteReplayRequest\x1a\x16.google.protobuf.Empty\x12=\n" +
 	"\bPlayback\x12\x17.replay.PlaybackRequest\x1a\x18.replay.PlaybackResponse\x123\n" +
 	"\x04Seek\x12\x13.replay.SeekRequest\x1a\x16.google.protobuf.Empty\x12=\n" +
-	"\x05Close\x12\x1c.replay.ClosePlaybackRequest\x1a\x16.google.protobuf.EmptyBEZ\"github.com/livekit/protocol/replay\xaa\x02\rLiveKit.Proto\xea\x02\x0eLiveKit::Protob\x06proto3"
+	"\x05Close\x12\x1c.replay.ClosePlaybackRequest\x1a\x16.google.protobuf.EmptyBEZ\"github.com/rezi-io/livekit-protocolprotocol/replay\xaa\x02\rLiveKit.Proto\xea\x02\x0eLiveKit::Protob\x06proto3"
 
 var (
 	file_cloud_replay_proto_rawDescOnce sync.Once
