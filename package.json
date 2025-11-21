@@ -1,5 +1,5 @@
 {
-  "name": "github.com/livekit/protocol",
+  "name": "github.com/rezi-io/livekit-protocol",
   "private": true,
   "version": "1.43.1",
   "scripts": {

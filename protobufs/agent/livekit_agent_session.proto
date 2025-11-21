@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package livekit.agent;
 
-option go_package = "github.com/livekit/protocol/livekit/agent";
+option go_package = "github.com/rezi-io/livekit-protocol/livekit/agent";
 
 import "google/protobuf/timestamp.proto";
 

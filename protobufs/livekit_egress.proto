@@ -19,7 +19,7 @@ package livekit;
 import "livekit_models.proto";
 import "logger/options.proto";
 
-option go_package = "github.com/livekit/protocol/livekit";
+option go_package = "github.com/rezi-io/livekit-protocol/livekit";
 option csharp_namespace = "LiveKit.Proto";
 option ruby_package = "LiveKit::Proto";
 
